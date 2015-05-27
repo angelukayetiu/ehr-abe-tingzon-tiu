@@ -1,0 +1,529 @@
+/*
+	form pop-up styles
+	Add New Potential
+	Add New Contact
+	Add New Task
+*/
+
+/*general pop-up look*/
+.addPopUp{
+background:#89adbb;
+}
+	.addPopUp label{
+	background:#89adbb;
+	margin:0; padding:3px 0;
+	font:11px Open Sans, Helvetica, Arial, sans-serif;
+	color:#fff;
+	}
+	.addPopUp input[type="text"],
+	.addPopUp input[type="email"],
+	.addPopUp input[type="tel"],
+	.addPopUp select{
+	background:#adc6d0;
+	margin:0 0 5px 0; padding:3px 5px; 
+	border:1px solid #7f7f7f;
+	border-radius:4px;
+	font:11px Open Sans, Helvetica, Arial, sans-serif;
+	color:#666;
+	}
+		.addPopUp input[type="text"],
+		.addPopUp input[type="email"],
+		.addPopUp input[type="tel"]{
+		width:160px;
+		}
+		.addPopUp select{
+		width:172px;
+		}
+			.addPopUp select option{
+			width:155px;
+			font:11px Open Sans, Helvetica, Arial, sans-serif;
+			color:#666;
+			}
+	.addPopUp .btnIcon,
+	.addPopUp .btnIcon img{
+	vertical-align:bottom;
+	}
+	.addPopUp ul{
+	list-style:none;
+	}
+	.addPopUp .btns{
+	margin:20px auto 0;
+	}	
+		.addPopUp .btns li{
+		margin-left:5px;
+		display:inline;
+		}
+
+/* form: add new user form in Settings*/	
+.newuser{
+padding:15px;
+position:absolute; 
+top:40px; left:280px;	
+width:185px;
+}
+	.newuser label,
+	.newuser input[type=text],
+	.newuser select{
+	margin-left:5px !important;
+	display:block;
+	}
+
+/* form: add new product in Potentials*/	
+
+
+.addProduct{
+padding:15px;
+position:absolute; 
+top:201px; left:275px;	
+width:185px;
+
+}
+	.addProduct label,
+	.newuser input[type=text],
+	.newuser select{
+	margin-left:5px !important;
+	display:block;
+	} 
+
+	
+.potentialAddProduct{
+padding:15px;
+position:absolute; 
+top:201px; left:275px;	
+width:185px;
+}
+	.potentialAddProduct label,
+	.newuser input[type=text],
+	.newuser select{
+	margin-left:5px !important;
+	display:block;
+	}
+	
+.potentialEditAddProduct{
+padding:15px;
+position:absolute; 
+top:301px; left:275px;	
+width:185px;
+}
+	.potentialEditAddProduct label,
+	.newuser input[type=text],
+	.newuser select{
+	margin-left:5px !important;
+	display:block;
+	}
+
+/* form: add new potential, add new contact */
+.potential,
+.contact,
+.task{
+padding:15px;
+position:absolute; 
+top:35px; right:290px;	
+width:200px;
+}
+
+.potential ul,
+.contact ul,
+.task ul{
+margin:0; padding:0;
+}
+.potential label,
+.contact label,
+.task label{	
+display:block;
+}	
+	.contact select.sig{	
+	margin-bottom:5px;
+	width:70px;
+	}	
+	.task .moreTask{
+	background:#adc6d0 url(../images/icon_moretask.png) no-repeat 95% 50%;
+	margin:5px 0; padding:3px 5px; 
+	width:172px;	 clear:both;
+	border:1px solid #7f7f7f;
+	border-radius:4px;
+	font:11px Open Sans, Helvetica, Arial, sans-serif;
+	color:#fff; text-align:left;
+	}
+
+	.task .moreTask:hover{
+	background:#d9e5e9 url(../images/icon_moretask.png) no-repeat 95% 50%;
+	color:#89aebc;
+	}
+
+/* on event changes*/
+.aHover{
+background:#89adbb;
+width:150px !important; display:block;
+position:relative; left:-40px;
+}
+.spanHover{
+background:#89adbb;
+margin-left:40px;
+}
+
+ /* View Tab */
+ .viewTableWrapper{
+	position:absolute;
+	top:416px;
+	left:311px;
+	width:180px; height:178px;
+	background:#89adbb;}
+	
+		.viewTable tr:nth-child(odd){  background:#ededed;}	
+		.viewTable tr:nth-child(even){ background:#f4f4f4;}	
+
+		.viewTable{
+			margin-top:10px;
+			margin-left:11px;}
+		
+		.viewTable tr td {
+			width:150px;
+			height:auto;
+			padding:2px 0 2px 5px;
+			}
+			 
+			.viewTable a{
+				text-decoration:none;
+				font:13px 'Open Sans', Helvetica, Arial, sans-serif;
+				color:#848484;
+				}
+	
+ .viewTableWrapperEdit{
+	position:absolute;
+	top:305px;
+	left:300px;
+	width:180px; height:178px;
+	background:#89adbb;}
+	/* .viewTable{
+		position:absolute;}
+	 */
+		.viewTableWrapperEdit tr:nth-child(odd){  background:#ededed;}	
+		.viewTableWrapperEdit tr:nth-child(even){ background:#f4f4f4;}	
+
+		.viewTableWrapperEdit{
+			margin-top:10px;
+			margin-left:11px;}
+		
+		.viewTableWrapperEdit tr td {
+			width:150px;
+			height:auto;
+			padding:2px 0 2px 5px;
+			}
+			 
+			.viewTableWrapperEdit a{
+				text-decoration:none;
+				font:13px 'Open Sans', Helvetica, Arial, sans-serif;
+				color:#848484;
+				}
+				
+.newProduct{
+	position:absolute;
+	top:-20px;
+	left:50px;
+	width:200px;
+	z-index:1;}		
+
+	.newProduct label{
+		display:block;}	
+				
+	.newProduct form{
+		padding:7px 0 12px 15px;}			
+
+
+
+
+
+/* START MORE FIELD POP UP */
+	
+					.moreField_wrapper{
+						top:370px; left:940px;
+						height:355px;
+						background:#88aebb;
+						position:absolute}
+					
+					.newQuota_wrapper{
+						top:200px; left:950px;
+						height:200px;
+						background:#88aebb;
+						position:absolute;
+						z-index:1}
+						
+					
+					.moreField_wrapper select, .newQuota_wrapper select{
+						width:97px;
+						border-style:none;
+						background:#abc6cf;
+						border:1px solid #8d9ea5;
+						margin:0;
+						}
+					.moreField_wrapper .inputText, .newQuota_wrapper .inputText{
+						width:90px;
+						border-radius:3px;
+						border-style:none;
+						background:#abc6cf;
+						border:1px solid #8d9ea5;
+						color:#666;
+						font:10px Open Sans, Helvetica, Arial, sans-serif;
+						padding:2px 0 2px 5px;
+						}
+					.moreField_wrapper img, .newQuota_wrapper img{
+						vertical-align:middle;
+						margin:0;
+						padding:0 0 0 5px;
+						}
+					
+						.moreField_wrapper .head, .newQuota_wrapper .head{
+							background:#bccca8;
+							font:10px Open Sans, Helvetica, Arial, sans-serif;
+							padding:5px 0 5px 5px;
+							color:#fff;
+							width:130px; height:auto;}
+
+							
+						.moreField_wrapper .formSection, .newQuota_wrapper .formSection{
+							padding:10px 0 0 10px;}	
+							
+		
+
+						/* DESCRIPTION */		
+								.moreField_wrapper .description, .newQuota_wrapper .description{
+									font:10px Open Sans, Helvetica, Arial, sans-serif;
+									color:#fff;}
+									
+									.moreField_wrapper .descriptionList, .newQuota_wrapper .descriptionList{
+										display:block;}
+										
+									.moreField_wrapper textarea, .newQuota_wrapper textarea{
+										font:10px Open Sans, Helvetica, Arial, sans-serif;
+										border-radius:3px;
+										border-style:none;
+										background:#abc6cf;
+										border:1px solid #8d9ea5;
+										margin:0;
+										width:100px;
+										height:60px;
+										color:#666;
+										padding:3px;}
+				
+		
+									/* CONTACT NAME */		
+											.moreField_wrapper .contactName{
+												font:10px Open Sans, Helvetica, Arial, sans-serif;
+												color:#fff;
+												padding:2px 0 0 0;}
+												
+												.moreField_wrapper li.contactList{
+													display:block;}
+													
+
+									/* RELATED TO */
+											.moreField_wrapper .relatedTo{
+												font:10px Open Sans, Helvetica, Arial, sans-serif;
+												color:#fff;
+												padding:5px 0 0 0;}
+												
+												.moreField_wrapper li.relatedList{
+													display:block;}
+													
+									/* STATUS */
+											.moreField_wrapper .status, .newQuota_wrapper .status{
+												font:10px Open Sans, Helvetica, Arial, sans-serif;
+												color:#fff;
+												padding:5px 0 0 0;}
+												
+												.moreField_wrapper li.statusList, .newQuota_wrapper li.statusList{
+													display:block;}
+													
+										
+				
+				
+
+									/*
+										buttons
+									*/
+
+
+									.buttons{
+										padding:7px 0 0 0;}
+										
+											
+
+											.btn{
+													background:#fff;
+													margin:0; padding:3px 5px; 
+													display:inline-block; border-radius:6px; 
+													box-shadow:0 1px 1px 0 #bfbfbf, 0 -1px 0 0 #d5d5d5;
+													background:-webkit-gradient(linear, left top, right bottom, color-stop(0%,#e1e1e1), color-stop(100%,#ffffff));
+													background:-webkit-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+													background:-moz-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+													background:-o-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+													background:linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+													 background:-ms-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+													 /*
+													filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e1e1 ', endColorstr='#ffffff',GradientType=0 );  */ 
+													}
+													
+													
+											.btn input[type=button]{
+													margin:0; padding:0 12px 0 30px; 
+													font:11px/20px "Open Sans", Arial, sans-serif;
+													color:#999; text-shadow:0 0 1px #c9c9c9;
+													border:1px solid #cecece;
+													border-radius:6px;
+													box-shadow:inset 0 1px 1px 0 #fff;}
+													
+												
+													.buttonList1, .buttonList2{
+														display:block;
+														padding:5px 0;}
+
+
+															.btnCancel{
+															background:#f9f9f9 url(../images/icon_cancel.png) no-repeat 10% 50%;
+															}
+
+															.btnDone{
+															background:#f9f9f9 url(../images/icon_done.png) no-repeat 10% 50%;
+															}
+															
+															.buttonList1{
+															padding:0 0 0 3px;}
+															
+												.aHover_moreFields{
+													background:#89adbb;
+													width:100px; display:block; height:25px;
+													position:absolute; left:200px; top:251px; 
+													
+												} 
+											
+													
+													
+													
+			/* START: RECCC */
+
+					
+	.recc_wrapper{
+		width:140px;
+		height:245px;
+		background:#88aebb;
+		position:absolute;
+		top:370px; left:940px;}
+		
+	.recc_wrapper select{
+		width:97px;
+		border-style:none;
+		background:#abc6cf;
+		border:1px solid #8d9ea5;
+		margin:0;
+		}
+	
+	.recc_wrapper .inputText{
+		width:90px;
+		border-radius:3px;
+		border-style:none;
+		background:#abc6cf;
+		border:1px solid #8d9ea5;
+		color:#fff;
+		font:10px Open Sans, Helvetica, Arial, sans-serif;
+		padding:2px 0 2px 5px;}
+		
+	.recc_wrapper img{
+		vertical-align:middle;
+		margin:0;
+		padding:0 0 0 5px;}
+	
+	/* HEADING */
+	
+		.recc_wrapper .recc_head{
+			background:#bccca8;
+			font:10px Open Sans, Helvetica, Arial, sans-serif;
+			padding:5px 0 5px 5px;
+			color:#fff;}
+
+			
+		.recc_wrapper .formSection{
+			padding:10px 0 0 10px;}	
+			
+		
+
+/* DESCRIPTION */		
+		.recc_wrapper .description{
+			font:10px Open Sans, Helvetica, Arial, sans-serif;
+			color:#fff;}
+			
+			.recc_wrapper .descriptionList{
+				display:block;}
+				
+			.recc_wrapper textarea{
+				font:10px Open Sans, Helvetica, Arial, sans-serif;
+				border-radius:3px;
+				border-style:none;
+				background:#abc6cf;
+				border:1px solid #8d9ea5;
+				margin:0;
+				width:100px;
+				height:60px;
+				color:#fff;
+				padding:3px;}
+				
+		
+/* CONTACT NAME */		
+		.recc_wrapper .startDate{
+			font:10px Open Sans, Helvetica, Arial, sans-serif;
+			color:#fff;
+			padding:2px 0 0 0;}
+			
+			.recc_wrapper li.startDateList{
+				display:block;}
+				
+
+/* RELATED TO */
+		.recc_wrapper .endDate{
+			font:10px Open Sans, Helvetica, Arial, sans-serif;
+			color:#fff;
+			padding:5px 0 0 0;}
+			
+			.recc_wrapper li.endDateList{
+				display:block;}
+				
+/* STATUS */
+		.recc_wrapper .repeatType{
+			font:10px Open Sans, Helvetica, Arial, sans-serif;
+			color:#fff;
+			padding:5px 0 0 0;}
+			
+			.recc_wrapper li.repeatTypeList{
+				display:block;}
+				
+				
+				.aHover_recc{
+					background:#89adbb;
+					width:100px; display:block; height:25px;
+					position:absolute; left:200px; top:218px; 
+					} 
+							
+
+.edit_popup{
+	background:#8bb6c5; width:50px;
+	position:absolute; top:2px; left:73px;
+	z-index:1;}
+
+	 	.edit_popup ul li{
+			list-style:none;} 
+			
+		.edit_popup ul li a {
+			text-decoration:none;
+			color:#fff;
+			padding:1px 0 0 5px;}
+			
+		.edit_popup ul li a:hover{
+			color:#2c6e1a;}
+
+		.edit_popup .edit{
+			background:#89aebc;
+			}
+		
+		.edit_popup .delete{
+			background:#a9c5cf;
+			}		

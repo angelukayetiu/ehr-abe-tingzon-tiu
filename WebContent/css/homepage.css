@@ -1,0 +1,100 @@
+/*
+	styles for homepage
+*/
+.home{
+margin:0 auto; padding:0 0 60px 0;
+border-top:1px solid #afafaf;
+border-bottom:1px solid #afafaf;
+}
+	.home .accDetails{
+	margin:25px auto 50px;
+	width:450px;
+	}
+	.home .accDetails .profile{
+	width:240px; float:left;
+	}
+		.home .accDetails .profile h3{
+		font:18px "Open Sans", Arial, sans-serif;
+		color:#848484; text-shadow:0 0 1px #848484;
+		}
+		.home .accDetails .profile ul{
+		font:13px "Open Sans", Arial, sans-serif;		
+		list-style:none;
+		}
+		.home .accDetails .profile ul li.photo{
+		margin:8px 0;
+		}
+		.home .accDetails .profile ul li.name{
+		font:13px "Open Sans", Arial, sans-serif;		
+		color:#006300; text-shadow:0 0 1px #006300;
+		}
+	.home .accDetails .quicklinks{
+	margin:25px 0 0 0;
+	width:185px; float:right;
+	}
+		.home .accDetails .quicklinks ul{
+		list-style:none;
+		}
+			.home .accDetails .quicklinks ul li{
+			margin:4px 0 0 0;			
+			}
+			.home .accDetails .quicklinks ul li a{
+			font:15px "Open Sans", Arial, sans-serif;
+			color:#848484; text-decoration:none;
+			vertical-align:top; 
+			}
+			.home .accDetails .quicklinks ul li a:hover{
+			color:#006300; 
+			}
+			.home .accDetails .quicklinks ul li a > span.link{
+			margin:0 0 0 10px; padding:0 0 5px 0;
+			width:110px; display:inline-block;
+			border-bottom:1px solid #848484;
+			}
+			.home .accDetails .quicklinks ul li:last-child a > span.link{
+			border:0;
+			}
+		.home .accDetails .quicklinks .blue{
+		background:#a6c4ce; margin:0; padding:0;
+		width:53px; height:30px; display:inline-block;
+		border-radius:2em 0 0 2em; border:0;
+		}
+		.home .accDetails .quicklinks .blue img{
+		padding:5px 0 0 18px;
+		}
+		
+.home h1{
+background:#bccca8;
+margin:30px auto 8px; padding:10px 25px;
+width:990px;
+font:20px "Open Sans", Arial, sans-serif;
+color:#fff;
+}		
+.home table{
+margin:0 auto; 
+width:1040px;
+}
+.home table th{
+background:#a7c5ce;
+margin:20px 40px; padding:10px 25px;
+font:14px "Open Sans", Arial, sans-serif;
+color:#fff; border-right:1px solid #afafaf;
+}	
+	.home table th:last-child{
+	border:0;
+	}		
+.home table tr:nth-child(odd){
+background:#f4f4f4;
+}
+.home table tr:nth-child(even){
+background:#efefef;
+}
+.home table td{
+padding:8px 20px 8px 35px;
+border-right:1px solid #afafaf;
+}
+	.home table td:last-child{
+	border:0;
+	}
+	
+	

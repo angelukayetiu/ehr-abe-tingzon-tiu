@@ -1,0 +1,416 @@
+/*
+	settings.css
+	styles for Settings pages
+*/
+
+/*table: Users list*/	
+.searchNav{
+background:#dbdbdb; 
+width:1100px; height:40px;
+border-top:0;
+border-bottom:1px solid #c4c4c4;
+}
+	.searchNav form.searchbar{
+	padding:5px 0; 
+	}
+	.searchNav form.searchbar input.search{
+	background: white url(../images/icon_search1.png) no-repeat 97% 40%;
+	margin:0; padding:0 8px; width:142px; height:20px;
+	border:1px solid #e0e0e0; border-radius:6px;		
+	font:11px/20px "Open Sans", Arial, sans-serif; color:#848484;	
+	}		
+	.searchNav form.searchbar ul{
+	padding:0 50px;
+	border:0;
+	}
+	.searchNav form.searchbar li{
+	display:inline; padding:0 5px;
+	}
+
+.setHead{
+background:#f4f4f4;
+padding:25px 55px;
+width:990px; height:auto; 
+text-align:left;
+border:0 !important; 
+}	
+	.setHead a{
+	font:11px/20px "Open Sans", Arial, sans-serif; 
+	color:#848484; text-decoration:none;
+	text-shadow:0 0 1px #ccc;
+	}
+		.setHead a:hover{
+		color:#006300;
+		text-shadow:0 0 1px #006300;
+		}
+	.setHead h2{
+	font:14px 'Open Sans', Helvetica, Arial, sans-serif;
+	color:#006300; text-shadow:0 0 1px #006300;
+	}		
+		.setHead ul{ 
+		list-style:none; 
+		}
+			.setHead ul li {
+			display:inline;
+			}
+				.setHead li.selected > a{
+				color:#006300;			
+				}
+				.setHead ul li a{
+				padding:0 5px 0 0;
+				}
+		.setHead .userStat{
+		margin-top:40px;
+		font:11px/20px "Open Sans", Arial, sans-serif; color:#848484;	
+		color:#848484;
+		}
+		.setHead > a{
+		padding:0 0 0 50px;
+		}
+		.setHead .downArrow{
+		color:#006300;
+		padding:0 0 0 6px;
+		}
+			
+/* tableWrapper
+	- list of users
+	- list of roles
+*/
+.tableWrapper{
+background:#f4f4f4;
+padding-bottom:80px;
+}
+	.tableWrapper .tableContent{
+	border-collapse:collapse;
+	width:100%;
+	}
+	.tableWrapper .tableContent{
+	border-collapse:collapse;
+	width:100%;
+	}
+		.tableWrapper .tableContent tr.frow:nth-child(odd){
+		background:#e3dddd;
+		}				
+		.tableWrapper .tableContent tr.frow:nth-child(even){ 
+		background:#f4f4f4;
+		}		
+		
+		.tableWrapper .tableContent tr.frow:nth-child(odd) .firstcell{
+		background:#d5cbcb;
+		}				
+		.tableWrapper .tableContent tr.frow:nth-child(even) .firstcell{ 
+		background:#e3dddd;
+		}						
+			.tableWrapper .tableContent .firstcell {
+			 padding:5px 0;
+			width:50px; height:auto;
+			vertical-align:top;			
+			}				
+			.tableWrapper .tableContent .secondcell {
+			width:25px;
+			height:auto;
+			vertical-align:middle;
+			}
+			.tableWrapper .tableContent .thirdcell {
+			width:700px;
+			height:auto;
+			vertical-align:middle;
+			}
+	
+			.tableContent img{
+			width:87px; height:100px;
+			}
+			.tableContent p{
+			font:11px/20px "Open Sans", Arial, sans-serif; 
+			}
+				.tableContent p.name{
+				color:#006300;
+				font-weight:700;
+				}
+				.tableContent p.info{
+				color:#848484;	
+				}
+			/* for table; list of roles */
+			.tableWrapper .roles tr td.secondcell,
+			.tableWrapper .roles tr td.thirdcell{
+ 			border-bottom:1px solid #f4f4f4; 
+			}
+			.tableWrapper .roles .userRole{
+			padding:12px 20px 0;
+			width:180px; height:30px; display:block;
+			}
+			
+			.tableWrapper .roles .userList{
+			padding:12px 20px 0; list-style:none;
+			width:300px; height:30px; display:block;
+			}				
+				.tableWrapper .roles .userList .arrow{
+				background:transparent url(../images/arrows.png) no-repeat 0 0; 
+				margin:0 5px 0 20px;
+				width:8px; height:8px; display:inline-block;
+				}								
+				.tableWrapper .roles .userList  a:hover .arrow{
+				background:transparent url(../images/arrows.png) no-repeat 100% 0; 
+				margin:0 5px 0 20px;
+				width:8px; height:8px; display:inline-block;
+				}					
+					.tableWrapper .roles a{ 
+					color:#848484;
+					text-decoration:none; 
+					}						
+						.tableWrapper .roles a:hover{ 
+						color:#006300;
+						}
+					.tableWrapper .roles .userList > li{
+					position:relative; 
+					}	 
+					.tableWrapper .roles .userList > li > a{
+					width:90px; display:block;					
+					}		 			
+					.tableWrapper .roles .userList ul{
+					background:#a9c5cf;					
+					width:175px; list-style:none;
+					position:absolute; top:0; left:80px;
+					}	 			
+					.tableWrapper .roles .userList ul > li:nth-child(even){
+					background:#89aebc;						
+					} 			
+					.tableWrapper .roles .userList ul > li > a{
+					padding:5px 20px;
+					color:#fff; display:block;
+					} 				
+					.tableWrapper .roles .userList ul > li > a:hover{
+					background:#ccc; 
+					} 		
+					
+				
+/* Settings update page*/
+
+.settingBody{
+background:#e3dddd; height:auto;
+padding-bottom:20px;
+font:11px 'Open Sans', Helvetica, Arial, sans-serif;
+color:#848484;
+border-top:0; 
+border-bottom:30px solid #f4f4f4; 
+}
+	
+/*name, info, and picture */
+.settingBody .left{
+padding:30px 0 0 50px;
+width:280px; float:left;
+}
+	.settingBody .left h4.name{
+	font:12px "Open Sans", Helvetica, Arial, sans-serif;
+	color:#006300; text-shadow:0 0 1px #006300;
+	}
+	.settingBody .left img{
+	width:137px;
+	height:164px;
+	padding:15px 0 0 0;
+	}
+
+/*forms*/
+.settingBody .right{
+padding:30px 0 0 0;
+float:left; width:320px;
+}
+	.settingBody .right h4,
+	.settingBody .right h5{
+	margin-bottom:10px; padding:0 0 15px 0; width:280px; 
+	font:12px "Open Sans", Helvetica, Arial, sans-serif;
+	color:#006300; text-shadow:0 0 1px #006300;
+	border-bottom:1px solid #006300;
+	}	
+		.settingBody .right h5{
+		padding-top:50px;
+		}	
+		.settingBody .right label{
+		width:90px; clear:both;
+		display:inline-block;
+		padding:7px 0 0 0;
+		}
+		.settingBody .right input[type=text],
+		.settingBody .right input[type=password]{
+		margin-left:10px; padding:3px; width:160px;
+		font:11px/17px 'Open Sans', Helvetica, Arial, sans-serif;
+		color:#848484;
+		border-radius:4px;	border-style:none;	
+		border:1px solid #999898;		
+		}
+			.settingBody .right .forPasswrd label{ width:120px; }
+			.settingBody .right .forPasswrd input[type=text],
+			.settingBody .right .forPasswrd input[type=password]{
+			width:130px; 
+			}	
+			.settingBody .right .quota{
+			padding:8px 0 0 8px;
+			width:200px; 
+			position:absolute;
+			}		
+
+	/* manage user/role access */
+	
+	.setwbg{
+	background:#f4f4f4 !important;
+	} 
+	.setAccess{
+	margin:0 50px 20px 100px;
+	padding:20px 0 0 0;
+	width:460px;
+	}
+		.settingBody .setAccess h4{
+		font:12px "Open Sans", Helvetica, Arial, sans-serif;
+		color:#006300; text-shadow:0 0 1px #006300;			
+		}
+		.settingBody .setAccess .granted,
+		.settingBody .setAccess .modules{
+		background:#e3dddd;
+		margin:20px 0;
+		width:200px; height:200px;
+		overflow:scroll;		
+		}
+			.settingBody .setAccess .granted{
+			float:left;
+			}
+			.settingBody .setAccess .modules{
+			float:right; 
+			}		
+		.settingBody .setAccess ul{
+		list-style:none;
+		}
+			.settingBody .setAccess ul li{
+			border-bottom:1px solid #f4f4f4;
+			}
+			.settingBody .setAccess ul li a{
+			padding:4px 30px; display:block; 
+			color:#848484;	text-decoration:none;
+			border-bottom:1px solid #d2c6c6;			
+			}
+			.settingBody .setAccess ul li a{
+			padding:4px 30px; display:block; 
+			color:#848484;	text-decoration:none;
+			border-bottom:1px solid #d2c6c6;			
+			}
+
+		
+	.setAccess .ctrl{
+	backgroun:none !important;
+	margin:75px 0 0 0; padding:0;
+	float:left; width:60px;	
+	}
+		.setAccess .ctrl .btnBlu1{
+		background:#a7c5ce; width:35px;
+		margin:0; padding:6px 0 6px 20px; float:left;
+		border-radius:0 16px 16px 0;
+		box-shadow:inset 0 1px 1px 0 #9cbcc5, 0 1px 1px 0 #9cbcc5;			
+		}	
+		.setAccess .ctrl .btnBlu2{
+		background:#a7c5ce; width:35px;
+		margin:15px 0 0 0; padding:6px 0 6px 20px; float:right;
+		border-radius:16px 0 0 16px;
+		box-shadow:inset 0 1px 1px 0 #9cbcc5, 0 1px 1px 0 #9cbcc5;	
+		}	
+		.setAccess .ctrl .btnBlu1 a,
+		.setAccess .ctrl .btnBlu2 a{
+		width:15px; height:15px; display:block;
+		border: 2px solid #fff; border-radius: 16px; 
+		text-decoration:none; color:#006300;
+		}
+	
+		.setAccess .ctrl .btnBlu1 a span{
+		padding-left:3px;
+		}
+		.setAccess .ctrl .btnBlu2 a span{
+		padding-left:1px;
+		} 
+	
+	
+
+	/* bottom buttons	*/
+	.settingBody .botBtns{
+ 	padding:35px 0 0 103px; 
+	}
+		.settingBody .right .botBtns li{
+		display:inline;
+		padding:0 4px 0 0;
+		}
+		.settingBody .right .botBtns span.btn{
+		width:70px;
+		}
+		.settingBody .right .botBtns input.btnCancel{
+		width:70px;
+		}
+
+				
+/* Settings page sidebar */
+.searchNav aside{
+background:#a9c5cf;
+margin:0; padding:0;
+width:130px; 
+position:absolute; top:10px; right:80px;  
+box-shadow:2px 0 3px 0 #a6a6a6; 
+}
+	.searchNav aside h2{
+	background:#becca8;
+	margin:45px 0 0 0; padding:8px 20px 0;  
+	width:145px; height:23px;	
+	position:relative; left:-50px; 
+	font:600 11px "Open Sans", Arial, sans-serif; color:#fff; 
+	box-shadow:2px 0 3px 0 #a6a6a6, 0 2px 5px 0 #a6a6a6 ;
+	border-radius:8px 0 0 8px;
+	}
+		.searchNav aside ul{
+		padding:3px 0 10px; position:relative; 
+		list-style:none;
+		}	
+			.searchNav aside li{
+			border-top:1px solid #76a1b2;	
+			border-bottom:1px solid #fff;	
+			height:30px;			
+			}
+				.searchNav aside li:first-child{
+				border-top:0;				
+				}
+				.searchNav aside li:last-child{
+				border-bottom:0;				
+				}
+					.searchNav aside li a{
+					margin:4px auto; padding:0 10px;
+					width:110px; display:block;
+					color:#fff; text-decoration:none;
+					line-height:22px;			
+					}
+						.searchNav aside li a:hover{
+						background:#89adbb; 
+						}	
+						
+/*colored side buttons*/
+.tableWrapper .bluSideBtn,
+.tableWrapper .grnSideBtn {
+margin:0 !important; padding:6px 0 0 0 !important; 
+text-align:center !important;
+height:28px; width:50px;
+border-radius:16px 0 0 16px;
+float:right;
+}
+	.tableWrapper .bluSideBtn input,
+	.tableWrapper .grnSideBtn input{
+	margin:0 0 2px 0 !important; padding:0!important; 
+	vertical-align:bottom; line-height:20px;
+	}
+	.tableWrapper .bluSideBtn span,
+	.tableWrapper .grnSideBtn span{
+	margin:0 0 0 20px;
+	width:17px; height:17px; display:block;
+	border:2px solid #fff;
+	border-radius:12px;
+	}
+	.tableWrapper .bluSideBtn{
+	background:#a7c5ce; 	
+	box-shadow:inset 0 1px 1px 0 #9cbcc5, 0 1px 1px 0 #9cbcc5, 0 1px 1px 1px #ccc;	
+	}
+	.tableWrapper .grnSideBtn{
+	background:#bdcca8;
+	box-shadow:inset 0 1px 1px 0 #abbe9e, 0 1px 1px 0 #cedabf;	
+	}

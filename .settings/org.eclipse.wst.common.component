@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ehr-abe-tingzon-tiu">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/resources/email-templates"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/resources/SSLkeys"/>
+        <property name="context-root" value="ehr-abe-tingzon-tiu"/>
+        <property name="java-output-path" value="/ehr-abe-tingzon-tiu/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,414 @@
+/*
+	forms.css
+*/
+
+/*
+ for pages with forms
+ set per section
+*/
+.crmForm{
+background:#f4f4f4;
+margin:0 auto; padding:20px 0 30px 0;
+width:1100px; height:auto;
+clear:both; position:relative;
+}
+	.crmForm > section{
+	background:#f4f4f4;
+	margin:0 auto; padding:10px 0;	
+  	position:relative;
+	}
+		.crmForm > section > header{
+		background:none; border:0;
+		padding-top:8px;
+		width:1100px; height:auto; 
+		}
+			.crmForm > section > header > h3{
+			margin:0;	padding:0 0 12px 60px;
+			min-width:130px; float:left; display:inline;
+			font:600 14px "Open Sans", Arial, sans-serif;
+			color:#006300; text-align: left;
+			}		
+			.crmForm > section > table {
+			background:none; clear:none;
+			margin:0; padding:10px 80px; 
+			float:left; display:inline; 
+			}
+			
+			/* option links next to section title	*/
+			.crmForm > section > header > ul.extra{	
+			background:none; clear:none;
+			margin:0; padding:0 20px; 
+			float:left; display:inline; 
+			}		
+ 				.crmForm > section > header > ul.extra >li{ 
+				background:none;
+				margin:0; padding:0;
+				display:inline; width:auto;
+				}
+					.crmForm > section > header > ul.extra >li >a{ 
+					background:none; 
+					margin:0; padding:0 3px; 
+					font-size:11px; color:#848484;
+					text-decoration:none;		
+					}
+					.crmForm > section > header > ul.extra >li >a:hover{ 
+					color:#006300;
+					}		 
+ 
+	/* form bottom */
+	.crmFormBot{
+	background:#dcdcdc;
+	height:35px;
+	}
+		.crmFormBot ul{
+		margin:0 80px; padding:9px 0 0 0;
+		list-style:none;
+		}
+		.crmFormBot ul li.prev{
+		background:transparent url(../images/icon_prev.png) no-repeat;
+		padding-left:20px;	float:left;
+		}
+		.crmFormBot ul li.next{
+		background:transparent url(../images/icon_next.png) no-repeat;
+		padding-left:20px; float:right;
+		}
+			.crmFormBot ul li a{
+			color:#666; text-shadow: 0 0 1px #848484;
+			text-decoration:none;
+			}
+	 
+	/* form fields */
+	.crmForm > ul.fields{
+	margin:0; padding:0; 
+	list-style:none; clear:both;
+	}
+		.crmForm ul.fields li{
+		margin:0; padding: 0; display:block;
+		font:11px "Open Sans", Arial, sans-serif;
+		color:#848484;
+		list-style:none;
+		}
+			.crmForm ul.fields li:nth-child(odd){
+			background:#ededed;
+			margin:0; padding:7px 80px; 
+			list-style:none;
+			}
+			.crmForm ul.fields li:nth-child(even){
+			background:#f4f4f4;
+			margin:0; padding:7px 80px; 
+			list-style:none;
+			}
+				.crmForm ul.fields li > label{
+				display:inline-block; width:130px;
+				}
+				.crmForm ul.fields li > span{
+				padding-left:10px;
+				}
+				.crmForm ul.fields li > input,
+				.crmForm ul.fields li > select{
+				background:#fff;
+				margin-left:8px; padding:0; width:155px;
+				font:11px "Open Sans", Arial, sans-serif;
+				color:#848484;			
+				border:1px solid #7f7f7f;
+				border-radius:4px;
+				}
+				.crmForm ul.fields li > select >option{
+				color:#fff;	
+				}
+				.crmForm ul.fields li >input{
+				padding:1px 10px; 
+				}
+				.crmForm ul.fields li > select > option{
+				background:#a9c5cf;
+				}
+				
+				/*	textarea input */
+				.crmForm section.txtArea label,
+				.crmForm section.txtArea select,
+				.crmForm section.txtArea textarea{
+				vertical-align:top;
+				}
+				.crmForm section.txtArea textarea{
+				margin-left:8px; padding:0; 
+				width:425px; height:145px;
+				font:11px "Open Sans", Arial, sans-serif;
+				color:#848484;			
+				border:1px solid #7f7f7f;
+				border-radius:4px;
+				}
+				
+				/*Notes section (More Details)*/
+				.crmForm .acntNotes{
+				font:11px "Open Sans", Arial, sans-serif;
+				}
+					.crmForm .acntNotes > p{
+					background:#ededed;
+					padding:0 0 10px 220px;
+					vertical-align:bottom;
+					font:11px/18px "Open Sans", Arial, sans-serif;
+					}
+					.crmForm .acntNotes input[type=checkbox]{
+					margin-right:8px;/*  vertical-align:top; */
+					}
+					.crmForm .acntNotes div.note{
+					background:#f4f4f4;
+					margin-bottom:20px;
+					border-top:1px solid #afafaf;
+					}
+						.crmForm .acntNotes article{
+						background:#fff;
+						margin-left:220px; padding:10px 20px 20px; 
+						width:380px;						
+						border-radius:0 0 6px 6px;
+						border-left:1px solid #7f7f7f;
+						border-right:1px solid #7f7f7f;
+						border-bottom:1px solid #7f7f7f;
+						box-shadow:2px 3px 3px 0 #ccc;
+						}
+						.crmForm .acntNotes article > p.info{
+						padding:10px 0;
+						}
+						.crmForm .acntNotes article > p.info,
+				 		.crmForm .acntNotes article > p.info >a{
+						font-weight:600; 
+						color:#006300;
+						}				
+							.crmForm .acntNotes article > p.info >a{
+							padding-right:5px;
+							text-decoration:none;
+							}					
+							.crmForm .acntNotes article > p.info >time{
+							padding-left:5px;							
+							}							
+							.crmForm .acntNotes article span.readlink{
+							margin:10px 0 0 0; width:100%; 
+							text-align:right;	display:block;						
+							}								
+								.crmForm .acntNotes article span.readlink a{
+								font:10px "Open Sans", Arial, sans-serif;
+								color:#006300; text-decoration:none;
+								}									
+								.crmForm .acntNotes article span.readlink a:hover{								
+								color:#333; 
+								}		
+								
+				/*	bottom: form buttons */
+				.crmForm .btnForm{
+				margin:0; padding:5px 0 0 90px;
+				float:left;
+				}
+						.crmForm .btnForm > li{
+						background:none; margin:0 20px 0 0;
+						list-style:none; display:inline;
+						}
+						
+				/* bottom: back to top button	*/
+				.crmForm .backontop{
+				margin:0; padding:5px 60px 0 0;
+				float:right;
+				}
+				
+				/*	 side: form buttons*/
+				.crmForm .crtlSection{
+				margin:0 0 15px; padding:0;				
+				}
+				.crmForm .bside{
+				margin:50px 0 0 0;
+				position:absolute; top:0; left:0;			
+				}
+					.crmForm .crtlSection ul{
+					list-style:none;
+					}
+
+/* form table content */					
+.formTop a, .crmForm section a{ color:#006300; text-decoration:none; }
+.formTop a:hover, .crmForm section a:hover{ color:#848484;  }
+
+.crmForm section .tDetails{
+margin:0 50px 30px 100px;
+border-top:18px solid #a7c5ce; 
+}				
+	.crmForm section .tDetails table{
+	margin:0; padding:0;	width:950px;
+	font:11px "Open Sans", Arial, sans-serif;
+	}		
+		.crmForm section .tDetails table tr{
+		background:#e3dddd; 
+		border-top:1px solid #f4f4f4;  
+		}		
+		.crmForm section .tDetails table tr:first-child{
+		border-top:3px solid #f4f4f4;  
+		}
+			.crmForm section .tDetails table th{
+			background:#bdcca8; 
+			margin:5px 0 0 0;	padding:3px 0;
+			color:#fff;
+			border-left:1px solid #f4f4f4; 	
+			}	
+			.crmForm section .tDetails table th:first-child{
+			border-left:1px solid #bdcca8;		
+			}
+				.crmForm section .tDetails table td{
+				padding:5px 0; 
+				text-align:center;
+				border-left:1px solid #b5b5b5;
+				}
+				.crmForm section .tDetails table td:first-child{
+				border-left:1px solid #e3dddd; 
+				}
+
+/* right side lists */
+.crmForm aside.qActions{
+background:#a9c5cf;
+margin:0; padding:0;
+width:130px; 
+position:absolute; top:-20px; right:80px;  
+box-shadow:2px 0 3px 0 #a6a6a6; 
+}
+	.crmForm aside.qActions h2{
+	background:#becca8;
+	margin:0; padding:8px 20px 0;  
+	width:145px; height:23px;	
+	position:relative; left:-50px; 
+	font:600 11px "Open Sans", Arial, sans-serif; color:#fff; 
+	box-shadow:2px 0 3px 0 #a6a6a6, 0 2px 5px 0 #a6a6a6 ;
+	border-radius:8px 0 0 8px;
+	}
+		.crmForm aside.qActions ul,
+		.crmForm aside.rLinks ul{
+	
+		padding:3px 0 10px; position:relative; 
+		font:11px "Open Sans", Arial, sans-serif;
+		list-style:none;
+		}
+			.crmForm aside.rLinks ul{
+			background:#a9c5cf; 
+			}
+			.crmForm aside.qActions ul li,
+			.crmForm aside.rLinks ul li{
+			border-top:1px solid #76a1b2;	
+			border-bottom:1px solid #fff;	
+			height:30px;			
+			}
+				.crmForm aside.qActions ul li:first-child,
+				.crmForm aside.rLinks ul li:first-child{
+				border-top:0;				
+				}
+				.crmForm aside.qActions ul li:last-child,
+				.crmForm aside.rLinks li:last-child{
+				border-bottom:0;				
+				}
+					.crmForm aside.qActions ul li a,
+					.crmForm aside.rLinks ul li a{
+					margin:4px auto; padding:0 10px;
+					width:110px; display:block;
+					color:#fff; text-decoration:none;
+					line-height:22px;			
+					}
+						.crmForm aside.qActions ul li a:hover,
+						.crmForm aside.rLinks ul li a:hover{
+						background:#89adbb; 
+						}
+/* locate */						
+.crmForm aside.rLinks{
+width:130px; 
+position:absolute; top:18px; right:80px;  
+}			
+	.crmForm aside.rLinks > h3,
+	.crmForm aside.rLinks > h3 a{
+	padding:0 5px 10px 0;
+	font:600 14px/20px "Open Sans", Arial, sans-serif; color:#006300;
+	text-decoration:none;
+	}
+		.crmForm aside.rLinks > h3 a:hover{ color:#333; }	
+
+/* potentials page - prodOpt	*/
+.crmForm .prodOpt{
+margin-left:140px; padding:5px;
+}
+.crmForm .prodOpt li{
+background: #ccc !important;
+/* background: #89adbb !important; */
+margin:0 2px 0 0 !important; 
+padding:2px 8px 4px !important;
+float:left; width:auto; 
+/* border:1px solid #ccc; border:1px solid #ccc;  */
+border-radius:4px 4px 0 0; 
+}
+	.crmForm .prodOpt li.active,
+	.crmForm .prodOpt li:hover{
+	background:#89adbb !important;
+	}
+.crmForm .prodOpt a.btnNew,
+.crmForm .prodOpt a.btnReturn{
+background:none !important;
+color:#fff;
+}
+.crmForm .prodOpt li a{
+margin:0 ; padding:0;
+font-size:10px;
+}
+	.crmForm .prodOpt li a:hover{
+	background:none !important;
+	}
+
+.formTop{
+background:#dcdcdc;
+margin:0 auto; padding:30px;
+width:1040px; float:left;
+}
+	.formTop figure{
+	margin:0 auto; padding:0;
+	float:left;
+	}
+		.formTop figure img{
+		margin:0 auto; padding:0;
+		border:1px solid #e4e4e4;
+		}
+	.formTop ul{
+	margin:0 0 0 30px; padding:0; 
+	float:left; list-style:none;
+	}
+	.formTop ul > li{
+	margin:0; padding:2px 0; 
+	}
+	.formTop ul > li > label{
+	display:inline-block; width:100px;
+	}
+	.formTop ul > li > span{
+	padding-left:10px;
+	}
+	/*thatfancyboxontheright*/
+	.formTop > aside{
+	background:#9dbcc7 url(../images/asidetopbg.jpg) no-repeat bottom center; 
+	width:130px; height:inherit;
+	position:absolute; top:10px; right:130px;
+	box-shadow:2px 0 3px 0 #a6a6a6; 
+	}
+	
+h2.new_Forms{
+	font: 800 25px "Open Sans", Arial, sans-serif;
+	color:#006300;
+	padding:10px 0 0 0;}
+	
+figure.newForm_image{
+	margin:0 40px 0 0;
+	height:50px; width:50px;}
+	
+.crmForm .dateFormat{
+	margin:5px 0 0 145px;}
+	
+.formHeader { 
+	line-height: 1.5; 
+  margin: 10px 20px 30px 40px;
+	color: #777;
+	font-size: 30px;
+	font-weight: bold;  
+	text-align: left; 
+	text-transform: uppercase; 
+}	
+
+.success { color: #006300 !important; font-weight: bold !important; }
+.error { color: #F00 !important; font-weight: bold !important; }
+.required { border-color: #F00 !important; }

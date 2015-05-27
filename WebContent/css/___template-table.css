@@ -1,0 +1,248 @@
+
+
+.wrapper {
+	width:1110px;
+	margin:0 auto;
+	height:auto;}
+	
+/*NAV*/	
+.tableHeader{
+	background:#dcdcdc;
+	height:50px;
+	border-top:10px solid #7f7f7f;}
+	
+			.tableHeader .navigation{
+					width:100%;
+					height:100%;
+					border:1px solid #c9c9c9;
+					}		
+
+			.tableHeader .navigation a{
+				text-decoration:none;}
+
+			.tableHeader .navigation td.navblank{
+				width:70px;
+				border:1px solid #c9c9c9;}
+				
+			.tableHeader .navigation td.nav1{
+				width:230px;
+				vertical-align:middle;
+				border:1px solid #c9c9c9;}
+				
+			.tableHeader .navigation td.nav2{
+				width:210px;
+				vertical-align:middle;
+				border:1px solid #c9c9c9;}
+				
+			.tableHeader .navigation td.nav3{
+				width:250px;	
+				vertical-align:middle;
+				border:1px solid #c9c9c9;}
+				
+			.tableHeader .navigation td.nav4{
+				width:150px;
+				vertical-align:middle;
+				border:1px solid #c9c9c9;}
+				
+			.tableHeader .navigation td.nav5{
+				vertical-align:middle;
+				border:1px solid #c9c9c9;}
+				
+			.greenArrow{
+				color:#006300;}
+				
+			.tableHeader .navigation a{	
+				text-align:center;
+				font:15px Open Sans, Helvetica, Arial, sans-serif;
+				padding:0 0 0 50px;}
+				
+/*FORMS*/				
+.tableSearch{
+	
+	border-top:10px solid #fff;
+	border-bottom:10px solid #fff;}
+	
+			.tableSearch .formlisttop{
+				background:#bccca8;
+				height:90px;}
+				
+			.tableSearch .formlisttop ul.up{
+				padding:20px 0 0 45px;}
+	
+			.tableSearch .formlisttop ul.up li.dropdown{
+				position:relative;
+				display:inline;
+				margin:0;
+				padding:0 0 10px 50px;}
+				
+			.tableSearch .formlisttop ul.up li.go{
+				display:inline;}
+				
+			.tableSearch .formlisttop ul.up li.search{
+				display:inline;
+				float:right;
+				padding:0 30px 0 0;}
+			
+			.tableSearch .formlisttop ul.up li.dropdown .firstd{
+				width:150px;
+				background:#d0dac2;
+				border-style:none;
+				border-radius:3px;}
+
+			.tableSearch .formlisttop ul.down{
+				padding:10px 0 0 45px;}	
+				
+			.tableSearch .formlisttop ul.down li.inputtext{
+				margin:0;
+				display:inline;
+				padding:50px 5px 50px 50px;}			
+			
+			.tableSearch .formlisttop ul.down .textbox{
+				width:145px;
+				background:#d0dac2;
+				border-style:none;
+				border-radius:3px;}
+				
+			.greenSearchArrow{
+				vertical-align:top;
+				color:#006300;}
+
+				
+/*TABLE CONTENT*/	
+.tableContent{
+	border-collapse:collapse;
+	width:100%;}
+		
+		/*
+			.tableContent .frow{
+				background:#e3dddd;}
+				
+			.tableContent .srow{
+				background:#f3f3f3;}
+	*/
+		tr.frow:nth-child(odd){ background:#e3dddd;}
+				
+		tr.frow:nth-child(even){ background:#f3f3f3;}			
+				
+					
+				
+					.firstcell {
+						width:20px;
+						height:auto;
+						vertical-align:middle;
+						padding:3px 0;}
+						
+						
+					.secondcell {
+						width:25px;
+						height:auto;
+						font:12px Open Sans, Helvetica, Arial, sans-serif;	
+						padding:0 0 0 30px;
+						vertical-align:middle;}
+						
+					.thirdcell {
+						width:50px;
+						height:auto;
+						font:12px Open Sans, Helvetica, Arial, sans-serif;
+						vertical-align:middle;}
+						
+					.fourthcell {
+						width:50px;
+						height:auto;
+						font:12px Open Sans, Helvetica, Arial, sans-serif;
+						vertical-align:middle;}
+						
+					.fifthcell {
+						width:50px;
+						height:auto;
+						font:12px Open Sans, Helvetica, Arial, sans-serif;
+						vertical-align:middle;}
+	
+					.tableContent a {
+						text-decoration:none;
+						color:black;}
+					
+					.tableContent a:hover{
+						color:#006300;
+						font:bold 12px Open Sans, Helvetica, Arial, sans-serif;}
+						
+				.blue{
+					background:#a6c4ce;
+					height:34px;
+					margin-left:10px;
+					
+					border-top-left-radius:2em;
+					border-bottom-left-radius:2em;/*
+					box-shadow: -0px 0px 3px #888888;*/}
+						
+				.green{
+					background:#bdcbaa;
+					height:34px;
+					margin-left:10px;
+				
+					border-top-left-radius:2em;
+					border-bottom-left-radius:2em;/*
+					box-shadow: -0px 0px 3px #888888;*/}
+
+
+
+/*FOOTER*/						
+.lowernav{
+	background:#dcdcdc;
+	height:50px;
+	border-bottom:10px solid #7f7f7f;
+	width:1110px;}	
+
+				.lowernav .alphabet{
+					width:400px;
+					padding-top:15px;
+					padding-left:30px;
+					float:left;}
+
+						.lowernav .alphabet ul li{
+							display:inline;
+							font-family:Open Sans, Helvetica, Arial, sans-serif;
+							font-size:10px;}
+
+						.lowernav .alphabet ul li a{
+							color:#848484;
+							text-decoration:none;}
+
+						.lowernav .alphabet ul li a:hover {
+							color:#006300;
+							font:bold 11px Open Sans, Helvetica, Arial, sans-serif;}
+			
+						.lowernav .fright a{
+							text-decoration:none;}
+					
+				.fright{
+					width:300px;
+					float:right;
+					padding:10px 0 0 0;
+					margin:0;}
+
+						.fright li.footright{
+							margin:0;
+							display:inline-block;}
+							
+						p.totalcount{
+							font-family:Open Sans, Helvetica, Arial, sans-serif;
+							font-size:10px;}
+							
+						.perpage{
+							width:100px;}
+	
+
+	
+
+
+
+	
+/*   buttons   */
+
+.btnGo{
+	border-radius:5px;
+	border:1px solid #c9c9c9;
+	font:11px "Open Sans", Arial, sans-serif;
+	color:#006300;}
+	

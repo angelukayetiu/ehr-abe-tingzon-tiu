@@ -1,0 +1,272 @@
+
+.window_wrapper{
+	border-top:10px solid #006300;
+	}
+
+
+	.window_wrapper nav{
+		height:25px;
+		background:#dcdcdc;
+		padding:10px;
+		border-bottom:10px solid #7f7f7f;
+		
+		}
+		
+	
+	
+	.window_wrapper nav ul li label{
+	font:11px "Open Sans", Arial, sans-serif; color:#848484;
+	}
+	
+	.window_wrapper nav ul li input{
+	border-radius:4px; border:1px solid #7f7f7f;
+	padding:1px 10px;
+	font:11px "Open Sans", Arial, sans-serif; color:#848484;
+	}
+	
+				.window_wrapper nav ul li .btnGo_new:Hover{
+					background:#006300;
+					color:#fff;}
+				
+				.window_wrapper nav ul li .btnNewContact:Hover{
+					background:#006300;
+					color:#fff;}
+					
+	.window_wrapper table{
+		width:100%;
+		font-family:"Open Sans", Arial, sans-serif;}
+		
+		.window_wrapper table tr th{
+			font-weight:100;
+			background:#eaeaea;
+			padding:10px;
+			color:#006300;
+		}
+			
+		.window_wrapper table tr td{
+			font:13px "Open Sans", Arial, sans-serif; color:#848484;
+			padding:5px;
+			text-align:center;
+		}
+		
+			.window_wrapper table tr td a {
+				font:11px "Open Sans", Arial, sans-serif; color:#848484;
+				text-decoration:none;
+			}
+		.window_wrapper tr:nth-child(even){ background:#e3dddd;}	
+		.window_wrapper tr:nth-child(odd){ background:#f3f3f3;  }			
+			
+			
+	.window_wrapper footer{
+		height:25px;
+		background:#dcdcdc;
+		padding:10px;
+		border-top:10px solid #7f7f7f;
+		}
+		
+		.window_wrapper footer p{
+			font:9px "Open Sans", Arial, sans-serif;
+			color:#ccccc;}
+			
+			
+			
+			
+			
+			
+			
+/*  CONTACT FORM */
+
+.window_wrapper form{
+	width:500px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	padding:30px 50px 50px 50px;
+	border-radius:10px;
+	box-shadow: 0px 0px 50px #888888;
+}
+
+.popup_Contact{
+	position:fixed; 
+	top: 80px; left: 0; right: 0; height: 0;}
+
+.window_wrapper form header {
+	padding:15px;}
+
+	.window_wrapper form h3{
+		font:25px "Open Sans", Arial, sans-serif; color:#fff;
+		text-align:center;
+	}
+		
+	.window_wrapper form hr{
+		margin:0;
+		padding:0 0 10px 0;
+		}
+	.window_wrapper ul {
+		padding-left:20px;}
+
+	
+	.window_wrapper ul li{
+		padding-top:10px;
+		list-style:none;}
+	
+	.window_wrapper ul.labelForm li label{
+	font:15px "Open Sans", Arial, sans-serif; color:#fff;
+	display:inline-block; width:130px;}
+	
+	.window_wrapper form ul.labelForm li input{
+	border-radius:4px; border:1px solid #7f7f7f;
+	padding:1px 10px; background:#a7c5ce;
+	font:15px "Open Sans", Arial, sans-serif; color:#fff;
+	}
+	
+	.window_wrapper form ul li select{
+	border-radius:4px; border:1px solid #7f7f7f;
+	padding:1px 0px 1px 5px; background:#a7c5ce;
+	font:15px "Open Sans", Arial, sans-serif; color:#fff;
+	}
+	
+		.window_wrapper form input{
+				margin-left:10px;
+			}
+		
+		.window_wrapper form select{
+				margin-left:7px;
+			}
+			
+			
+			
+.bgWindow{
+width:100%;  
+min-height: 100%; 
+position:absolute; top:0px; }
+
+
+		
+/*
+	buttons
+*/
+.btn{
+background:#fff;
+margin:0; padding:3px 5px; 
+display:inline-block; border-radius:6px; 
+box-shadow:0 1px 1px 0 #bfbfbf, 0 -1px 0 0 #d5d5d5;
+background:-webkit-gradient(linear, left top, right bottom, color-stop(0%,#e1e1e1), color-stop(100%,#ffffff));
+background:-webkit-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+background:-moz-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+background:-o-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+background:linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+ background:-ms-linear-gradient(to bottom, #e1e1e1 0%, #ffffff 100%);
+ /*
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e1e1 ', endColorstr='#ffffff',GradientType=0 );  */ 
+}
+.btn input[type=submit],
+.btn input[type=button]{
+margin:0; padding:0 12px 0 30px; 
+font:11px/20px "Open Sans", Arial, sans-serif;
+color:#999; text-shadow:0 0 1px #c9c9c9;
+border:1px solid #cecece;
+border-radius:6px;
+box-shadow:inset 0 1px 1px 0 #fff;
+}
+/*
+	control buttons
+*/
+.btnCancel_win{
+background:#f9f9f9 url(../images/icon_cancel.png) no-repeat 10% 50%;
+}
+	.btnCancel_win:hover{
+	background:#d1e3d1 url(../images/icon_cancel.png) no-repeat 10% 50%;
+	}
+.btnClose{
+background:#f9f9f9 url(../images/icon_close.png) no-repeat 10% 50%;
+}
+	.btnClose:hover{
+	background:#d1e3d1 url(../images/icon_close.png) no-repeat 10% 50%;
+	}
+.btnDel{
+background:#f9f9f9 url(../images/icon_delete.png) no-repeat 10% 50%;
+}
+	.btnDel:hover{
+	background:#d1e3d1 url(../images/icon_delete.png) no-repeat 10% 50%;
+	}
+.btnDone{
+background:#f9f9f9 url(../images/icon_done.png) no-repeat 10% 50%;
+}
+	.btnDone:hover{
+	background:#d1e3d1 url(../images/icon_done.png) no-repeat 10% 50%;
+	}
+.btnEdit{
+background:#f9f9f9 url(../images/icon_edit.png) no-repeat 10% 50%;
+}
+	.btnEdit:hover{
+	background:#d1e3d1 url(../images/icon_edit.png) no-repeat 10% 50%;
+	}
+.btnExit{
+background:#f9f9f9 url(../images/icon_exit.png) no-repeat 10% 50%;
+}
+	.btnExit:hover{
+	background:#d1e3d1 url(../images/icon_exit.png) no-repeat 10% 50%;
+	}	
+.btnFet{
+background:#f9f9f9 url(../images/icon_fetched.png) no-repeat 10% 50%;
+}
+	.btnFet:hover{
+	background:#d1e3d1 url(../images/icon_fetched.png) no-repeat 10% 50%;
+	}
+.btnMore{
+background:#f9f9f9 url(../images/icon_moreactions.png) no-repeat 10% 50%;
+}
+	.bbtnMore:hover{
+	background:#d1e3d1 url(../images/icon_moreactions.png) no-repeat 10% 50%;
+	}
+.btnNew{
+background:#f9f9f9 url(../images/icon_new.png) no-repeat 10% 50%;
+}
+	.btnNew:hover{
+	background:#d1e3d1 url(../images/icon_new.png) no-repeat 10% 50%;
+	}
+.btnNext{
+background:#f9f9f9 url(../images/icon_next.png) no-repeat 10% 50%;
+}
+	.btnNext:hover{
+	background:#d1e3d1 url(../images/icon_next.png) no-repeat 10% 50%;
+	}
+.btnPrev{
+background:#f9f9f9 url(../images/icon_prev.png) no-repeat 10% 50%;
+}
+	.btnPrev:hover{
+	background:#d1e3d1 url(../images/icon_prev.png) no-repeat 10% 50%;
+	}
+.btnReturn{
+background:#f9f9f9 url(../images/icon_return.png) no-repeat 10% 50%;
+}
+	.btnReturn:hover{
+	background:#d1e3d1 url(../images/icon_return.png) no-repeat 10% 50%;
+	}
+.btnSave_win{
+background:#f9f9f9 url(../images/icon_save.png) no-repeat 10% 50%;
+}
+	.btnSave_win:hover{
+	background:#d1e3d1 url(../images/icon_save.png) no-repeat 10% 50%;
+	}
+
+.btnTop{
+background:#f9f9f9 url(../images/icon_top.png) no-repeat 10% 50%;
+}
+	.btnTop:hover{
+	background:#d1e3d1 url(../images/icon_top.png) no-repeat 10% 50%;
+	}	
+			
+
+.btnSection{
+	padding:10px 0 0 0;}
+			
+	.btnSection .btnForm li {
+		display:inline;}
+		
+.search_list  tr:hover{
+	 background:#006300; 
+}
+
+.search_list a:hover{
+	color:#fff;}

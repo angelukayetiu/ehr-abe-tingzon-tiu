@@ -1,0 +1,672 @@
+/*nav*/
+.tableHeader {
+	background: #dcdcdc;
+	height: 50px;
+}
+
+.tableHeader table {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #c9c9c9;
+}
+
+.tableHeader table tr td:first-child {
+	width: 70px;
+	border: 1px solid #c9c9c9;
+}
+
+.tableHeader table td {
+	vertical-align: middle;
+	border: 1px solid #c9c9c9;
+}
+
+.tableHeader .greenArrow {
+	background: transparent url(../images/arrows.png) no-repeat 0 0;
+	margin: 3px 10px;
+	width: 8px;
+	height: 6px;
+	display: inline-block;
+}
+
+.tableHeader table a {
+	padding: 0 0 0 50px;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Open Sans, Helvetica, Arial, sans-serif;
+	color: #848484;
+	text-shadow: 0 0 1px #848484;
+}
+
+.tableHeader table a:hover {
+	color: #006300;
+}
+
+/*specific tables:*/
+.activities .tableHeader td.pri {
+	width: 220px;
+}
+
+.cases .tableHeader td.pri,.contacts .tableHeader td.ema {
+	width: 300px;
+}
+
+.products .tableHeader td.crs,.products .tableHeader td.cat,.products .tableHeader td.sub
+	{
+	width: 250px;
+}
+
+.products .tableHeader td.rat {
+	width: 280px;
+}
+
+.potentials .tableHeader td.amt,.potentials .tableHeader td.sta {
+	width: 120px;
+}
+
+.potentials .tableHeader td.phn {
+	width: 200px;
+}
+
+.potentials .tableHeader td a {
+	padding: 0 0 0 20px;
+}
+
+.prospects .tableHeader td.own {
+	width: 250px;
+}
+
+/*forms*/
+.tableSearch {
+	background: #bccca8;
+	padding-bottom: 20px;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	position: relative;
+	height: auto;
+	clear: both;
+}
+/*search icon slideout*/
+.searchTool {
+	/* 	background:#bccca8; */
+	position: absolute;
+	top: 58px;
+	right: 50px;
+	width: 1100px;
+	height: 35px;
+}
+
+.searchTool>section {
+	padding: 10px 10px 0 0;
+	float: right;
+}
+
+.searchTool>a {
+	width: 20px;
+	height: 20px;
+}
+
+.searchTool .greenArrow {
+	background: transparent url(../images/arrows.png) no-repeat 0 0;
+	margin: 6px 0 0 0;
+	width: 8px;
+	height: 6px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tableSearch section {
+	padding: 0 70px 20px;
+}
+
+/* search button submit	*/
+.tableSearch section .submit {
+	position: absolute;
+	top: 55px;
+	right: 50px;
+}
+
+.tableSearch section .submit>input {
+	background: #f8f8f8;
+	border: 0;
+	padding: 4px;
+	border: 1px solid #ccc;
+	font-size: 9px;
+	color: #006300;
+	border-radius: 4px;
+}
+
+.tableSearch section .submit>input:hover {
+	background: #e0e0e0;
+	border: 1px solid #006300;
+	color: #333;
+	border-radius: 4px;
+}
+
+.tableSearch section ul {
+	padding: 20px 0 0 0;
+	float: left;
+}
+
+.tableSearch section ul li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+.tableSearch section ul li select,.tableSearch section ul li input[type=text],.tableSearch section ul li input[type=date],.tableSearch section ul li input[type=time]
+	{
+	background: #d0dac2;
+	margin: 5px 0 0 0;
+	display: inline;
+	border: 1px solid #7f7f7f;
+	border-radius: 3px;
+	color: #7f7f7f;
+}
+
+.tableSearch section ul li select {
+	padding: 2px;
+}
+
+.tableSearch section ul li input[type=text] {
+	padding: 2px 4px;
+}
+
+.tableSearch section .clear {
+	position: absolute;
+	top: 55px;
+	right: 15px;
+}
+
+.tableSearch section .clear>input {
+	background: #f8f8f8;
+	border: 0;
+	padding: 4px;
+	border: 1px solid #ccc;
+	font-size: 9px;
+	color: #006300;
+	border-radius: 4px;
+}
+
+.tableSearch section .clear>input:hover {
+	background: #e0e0e0;
+	border: 1px solid #006300;
+	color: #333;
+	border-radius: 4px;
+}
+
+.tableSearch section ul {
+	padding: 20px 0 0 0;
+	float: left;
+}
+
+.tableSearch section ul li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+.tableSearch section ul li select,.tableSearch section ul li input[type=text],.tableSearch section ul li input[type=date],.tableSearch section ul li input[type=time]
+	{
+	background: #d0dac2;
+	margin: 5px 0 0 0;
+	display: inline;
+	border: 1px solid #7f7f7f;
+	border-radius: 3px;
+	color: #7f7f7f;
+}
+
+.tableSearch section ul li select {
+	padding: 2px;
+}
+
+.tableSearch section ul li input[type=text] {
+	padding: 2px 4px;
+}
+/* page specific:accounts*/
+.accounts .tableSearch section ul {
+	width: 170px;
+}
+
+.accounts .tableSearch section ul li select {
+	width: 170px;
+}
+
+.accounts .tableSearch section ul li input[type=text] {
+	width: 161px;
+}
+
+.accounts .tableSearch form ul.acn {
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+.accounts .tableSearch form ul.phn {
+	margin-right: 50px;
+}
+
+.accounts .tableSearch form ul.ind {
+	margin-right: 70px;
+}
+
+/* page specific:activities*/
+.activities .tableSearch section ul {
+	width: 130px;
+}
+
+.activities .tableSearch section ul li select {
+	width: 130px;
+}
+
+.activities .tableSearch section ul li input[type=time],.activities .tableSearch section ul li input[type=date],.activities .tableSearch section ul li input[type=text]
+	{
+	width: 121px;
+}
+
+.activities .tableSearch form ul.sub {
+	padding-left: 3px;
+	padding-right: 12px;
+}
+
+.activities .tableSearch form ul.act {
+	padding-right: 50px;
+}
+
+.activities .tableSearch form ul.dat {
+	padding-right: 70px;
+}
+
+.activities .tableSearch form ul.due {
+	padding-right: 22px;
+}
+
+.activities .tableSearch form ul.sta {
+	padding-right: 10px;
+}
+
+/* page specific:cases*/
+.cases .tableSearch section ul {
+	width: 160px;
+}
+
+.cases .tableSearch section ul li select {
+	width: 160px;
+}
+
+.cases .tableSearch section ul li input[type=text] {
+	width: 151px;
+}
+
+.cases .tableSearch form ul.cas {
+	padding-left: 30px;
+	padding-right: 100px;
+}
+
+.cases .tableSearch form ul.sub {
+	padding-right: 70px;
+}
+
+.cases .tableSearch form ul.org {
+	padding-right: 90px;
+}
+
+/* page specific:contacts*/
+.contacts .tableSearch section ul {
+	width: 180px;
+}
+
+.contacts .tableSearch section ul li select {
+	width: 180px;
+}
+
+.contacts .tableSearch section ul li input[type=text] {
+	width: 171px;
+}
+
+.contacts .tableSearch form ul.con {
+	padding-left: 50px;
+	padding-right: 230px;
+}
+
+.contacts .tableSearch form ul.phn {
+	padding-right: 120px;
+}
+
+/* page specific:potentials*/
+.potentials .tableSearch section ul {
+	width: 110px;
+}
+
+.potentials .tableSearch section ul li select {
+	width: 110px;
+}
+
+.potentials .tableSearch section ul li input[type=text],.potentials .tableSearch section ul li input[type=date],.potentials .tableSearch section ul li input[type=time]
+	{
+	width: 101px;
+}
+
+.potentials .tableSearch form ul.pro {
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.potentials .tableSearch form ul.amt {
+	padding-right: 10px;
+}
+
+.potentials .tableSearch form ul.sta {
+	padding-right: 20px;
+}
+
+.potentials .tableSearch form ul.clo,.potentials .tableSearch form ul.acc,.potentials .tableSearch form ul.con
+	{
+	padding-right: 35px;
+}
+
+/* page specific:prospects*/
+.prospects .tableSearch section ul {
+	width: 140px;
+}
+
+.prospects .tableSearch section ul li select {
+	width: 140px;
+}
+
+.prospects .tableSearch section ul li input[type=text] {
+	width: 131px;
+}
+
+.prospects .tableSearch form ul.pro {
+	padding-left: 50px;
+	padding-right: 90px;
+}
+
+.prospects .tableSearch form ul.phn {
+	padding-right: 40px;
+}
+
+.prospects .tableSearch form ul.ind {
+	padding-right: 30px;
+}
+
+.prospects .tableSearch form ul.web {
+	padding-right: 40px;
+}
+
+/* page specific:product listing*/
+.products .tableSearch section ul {
+	width: 180px;
+}
+
+.products .tableSearch section ul li select {
+	width: 180px;
+}
+
+.products .tableSearch section ul li input[type=text] {
+	width: 171px;
+}
+
+.products .tableSearch form ul.crs {
+	padding-left: 40px;
+	padding-right: 60px;
+}
+
+.products .tableSearch form ul.cat {
+	padding-right: 60px;
+}
+
+.products .tableSearch form ul.sub {
+	padding-right: 55px;
+}
+
+/*table content*/
+.tableContent {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tableContent tr:nth-child(odd) {
+	background: #e3dddd;
+}
+
+.tableContent tr:nth-child(even) {
+	background: #f3f3f3;
+}
+
+.tableContent tr td:first-child {
+	width: 70px !important;;
+	padding: 0 !important;
+}
+
+.tableContent tr td {
+	padding: 0 25px;
+	font: 11px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+	vertical-align: middle;
+	position: relative;
+}
+
+.tableContent td a {
+	text-decoration: none;
+	color: #006300;
+}
+
+.tableContent a:hover {
+	color: #848484;
+}
+
+.tableContent .blue {
+	background: #a6c4ce;
+	margin: 2px 0 4px 10px;
+	height: 30px;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+.tableContent .green {
+	background: #bdcbaa;
+	margin: 2px 0 4px 10px;
+	height: 30px;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+/* checkbox	*/
+.tableContent .blue input[type=checkbox],.tableContent .green input[type=checkbox]
+	{
+	margin: 8px 0 0 28px;
+}
+
+/* specific table:accounts */
+.accounts .tableContent td.acn {
+	width: 270px;
+	padding-left: 50px;
+}
+
+.accounts .tableContent td.phn {
+	width: 170px;
+}
+
+.accounts .tableContent td.ind {
+	width: 200px;
+}
+
+.accounts .tableContent td.web {
+	width: 190px;
+}
+
+/* specific table:activities */
+.activities .tableContent td.sub {
+	width: 100px;
+}
+
+.activities .tableContent td.act {
+	width: 120px;
+}
+
+.activities .tableContent td.dat {
+	width: 140px;
+}
+
+.activities .tableContent td.due {
+	width: 110px;
+}
+
+.activities .tableContent td.sta {
+	width: 90px;
+}
+
+/* specific table:cases */
+.cases .tableContent td.cas {
+	width: 220px;
+	padding-left: 50px;
+}
+
+.cases .tableContent td.sub {
+	width: 160px;
+}
+
+.cases .tableContent td.org {
+	width: 190px;
+}
+
+/* specific table:contacts */
+.contacts .tableContent td.con {
+	width: 380px;
+	padding-left: 50px;
+}
+
+.contacts .tableContent td.phn {
+	width: 250px;
+}
+
+/* specific table:potentials*/
+.potentials .tableContent td {
+	padding: 0 0 0 20px;
+}
+
+.potentials .tableContent td.pro {
+	width: 120px;
+}
+
+.potentials .tableContent td.amt {
+	width: 100px;
+}
+
+.potentials .tableContent td.sta {
+	width: 120px;
+}
+
+.potentials .tableContent td.clo {
+	width: 100px;
+}
+
+.potentials .tableContent td.acc {
+	width: 130px;
+}
+
+.potentials .tableContent td.con {
+	width: 130px;
+}
+
+/* specific table:prospects*/
+.prospects .tableContent td.pro {
+	width: 220px;
+	padding-left: 40px;
+}
+
+.prospects .tableContent td.phn,.prospects .tableContent td.ind,.prospects .tableContent td.web
+	{
+	width: 120px;
+}
+
+/* specific table:products*/
+.products .tableContent td.crs {
+	width: 170px;
+	padding-left: 60px;
+}
+
+.products .tableContent td.cat {
+	width: 190px;
+}
+
+.products .tableContent td.sub {
+	width: 195px;
+}
+/* .products .tableContent td.rat{
+width:280px; 
+}
+ */
+
+/*table footer*/
+.lowernav {
+	background: #dcdcdc;
+	height: 35px;
+	clear: both;
+	width: 1100px;
+	border-top: 30px solid #f8f8f8;
+}
+
+.lowernav .alphabet {
+	width: 400px;
+	padding: 8px 0 0 70px;
+	float: left;
+}
+
+.lowernav .alphabet ul li {
+	display: inline;
+	padding: 0 0 0 3px;
+}
+
+.lowernav .alphabet ul li a {
+	font: 11px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+	text-decoration: none;
+	text-shadow: 0 0 1px #848484;
+}
+
+.lowernav .alphabet ul li.selected a,.lowernav .alphabet ul li a:hover {
+	color: #006300;
+	text-shadow: 0 0 1px #006300;
+	text-decoration: underline;
+}
+
+.lowernav .paging {
+	margin: 5px 0 0 0;
+	padding: 0 70px 0 0;
+	float: right;
+	vertical-align: middle;
+	font: 11px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+}
+
+.lowernav .paging li {
+	display: inline-block;
+}
+
+.lowernav .paging li select.perpage {
+	background: #eaeaea;
+	font: 11px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+	border: 1px solid #7f7f7f;
+	border-radius: 4px;
+}
+
+.lowernav .paging li p.counter {
+	margin-left: 4px;
+}
+
+.lowernav .paging li p.counter span {
+	padding: 0 3px;
+	color: #006300;
+}
+
+.lowernav .paging li p.counter a {
+	padding: 0 1px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lowernav .paging li p.counter a:hover {
+	color: #006300;
+}
